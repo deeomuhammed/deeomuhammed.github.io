@@ -1,6 +1,6 @@
 {
-    "name": "deeoweb",
-    "short_name": "deeoweb",
+    "name": "erpapp",
+    "short_name": "erpapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

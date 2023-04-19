@@ -3,47 +3,57 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "680dc63e61a6374ec70dba79ac53ce1e",
-"favicon.ico": "43995117695afeda1f4b97ac7d95169d",
-"index.html": "15c3ae51e1fe7285e74b02319c7465a5",
-"/": "15c3ae51e1fe7285e74b02319c7465a5",
-"main.dart.js": "121d6b3090d5bc07f578c047fa3df8ab",
+  "version.json": "893640975750cc2d3363ca5a65a155f4",
+"index.html": "60c9f4322b48dea2fcc4265914c35c2b",
+"/": "60c9f4322b48dea2fcc4265914c35c2b",
+"main.dart.js": "76c47189393f3c2b33e176dd7df4442f",
+"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "4055b6a4abba514db789630d23675335",
-"assets/AssetManifest.json": "4cddef64104f93801a3da364561842b0",
-"assets/NOTICES": "0a54e7f7d98f176c437ff6306bb22a66",
-"assets/FontManifest.json": "3ba95e877e8d977ed295b7a8efefeff7",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Script-Regular.ttf": "55d2dcd4778875a53ff09320a85a5296",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size3-Regular.ttf": "e87212c26bb86c21eb028aba2ac53ec3",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Typewriter-Regular.ttf": "87f56927f1ba726ce0591955c8b3b42d",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Bold.ttf": "a9c8e437146ef63fcd6fae7cf65ca859",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_SansSerif-Bold.ttf": "ad0a28f28f736cf4c121bcb0e719b88a",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-Bold.ttf": "9eef86c1f9efa78ab93d41a0551948f7",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Fraktur-Regular.ttf": "dede6f2c7dad4402fa205644391b3a94",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-Regular.ttf": "5a5766c715ee765aa1398997643f1589",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_SansSerif-Italic.ttf": "d89b80e7bdd57d238eeaa80ed9a1013a",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Math-Italic.ttf": "a7732ecb5840a15be39e1eda377bc21d",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-Italic.ttf": "ac3b1882325add4f148f05db8cafd401",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Fraktur-Bold.ttf": "46b41c4de7a936d099575185a94855c4",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size2-Regular.ttf": "959972785387fe35f7d47dbfb0385bc4",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_SansSerif-Regular.ttf": "b5f967ed9e4933f1c3165a12fe3436df",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size1-Regular.ttf": "1e6a3368d660edc3a2fbbe72edfeaa85",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Regular.ttf": "7ec92adfa4fe03eb8e9bfb60813df1fa",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size4-Regular.ttf": "85554307b465da7eb785fd3ce52ad282",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-BoldItalic.ttf": "e3c361ea8d1c215805439ce0941a1c8d",
-"assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Math-BoldItalic.ttf": "946a26954ab7fbd7ea78df07795a6cbc",
+"manifest.json": "3eb4e63496a7332a3a597194a0ae401c",
+"assets/AssetManifest.json": "0740a4dda10939ccdb885f079095383b",
+"assets/NOTICES": "7c16170da42a9ab68cfa00b439abeeae",
+"assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
-"assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/assets/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
-"assets/assets/photos/moon.png": "d03b9f65277bfc3a5ef8a2762882caf1"
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "9cda082bd7cc5642096b56fa8db15b45",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "0a94bab8e306520dc6ae14c2573972ad",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b00363533ebe0bfdb95f3694d7647f6d",
+"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"assets/assets/images/profile_pic.png": "5f56c3070f1c066ae15ecad12fb44f54",
+"assets/assets/images/logo.png": "5a6b8c3142e63fb4cc3f8fb782720bc0",
+"assets/assets/images/sample.pdf": "91f0bbdacb811dc611e505c1512478f8",
+"assets/assets/images/134499-embty-cart.json": "42c076dc2ace8b65a00b0d28ba3f03a7",
+"assets/assets/icons/Search.svg": "396d519c18918ed763d741f4ba90243a",
+"assets/assets/icons/google_drive.svg": "9a3005a58d47a11bfeffc11ddd3567c1",
+"assets/assets/icons/menu_setting.svg": "d0e24d5d0956729e0e2ab09cb4327e32",
+"assets/assets/icons/menu_dashbord.svg": "b2cdf62e9ce9ca35f3fc72f1c1fcc7d4",
+"assets/assets/icons/doc_file.svg": "552a02a5a3dbaee682de14573f0ca9f3",
+"assets/assets/icons/unknown.svg": "b2f3cdc507252d75dea079282f14614f",
+"assets/assets/icons/menu_task.svg": "1a02d1c14f49a765da34487d23a3093b",
+"assets/assets/icons/menu_profile.svg": "fe56f998a7c1b307809ea3653a1b62f9",
+"assets/assets/icons/menu_store.svg": "2fd4ae47fd0fca084e50a600dda008cd",
+"assets/assets/icons/sound_file.svg": "fe212d5edfddd0786319edf50601ec73",
+"assets/assets/icons/pdf_file.svg": "ca854643eeee7bedba7a1d550e2ba94f",
+"assets/assets/icons/drop_box.svg": "3295157e194179743d6093de9f1ff254",
+"assets/assets/icons/xd_file.svg": "38913b108e39bcd55988050d2d80194c",
+"assets/assets/icons/menu_tran.svg": "6c95fa7ae6679737dc57efd2ccbb0e57",
+"assets/assets/icons/media.svg": "059dfe46bd2d92e30bf361c2f7055c3b",
+"assets/assets/icons/menu_doc.svg": "09673c2879de2db9646345011dbaa7bb",
+"assets/assets/icons/Figma_file.svg": "0ae328b79325e7615054aed3147c81f9",
+"assets/assets/icons/menu_notification.svg": "460268d6e4bdeab56538d7020cc4b326",
+"assets/assets/icons/logo.svg": "b3af0c077a73709c992d7e075b76ce33",
+"assets/assets/icons/media_file.svg": "2ac15c968f8a8cea571a0f3e9f238a66",
+"assets/assets/icons/folder.svg": "40a82e74e930ac73aa6ccb85d8c5a29c",
+"assets/assets/icons/Documents.svg": "51896b51d35e28711cf4bd218bde185d",
+"assets/assets/icons/excle_file.svg": "dc91b258ecf87f5731fb2ab9ae15a3ec",
+"assets/assets/icons/one_drive.svg": "aa908c0a29eb795606799385cdfc8592",
+"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
+"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -51,7 +61,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -150,9 +159,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
